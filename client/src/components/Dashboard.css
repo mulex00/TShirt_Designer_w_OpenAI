@@ -1,0 +1,35 @@
+.dashboard-container{
+    background: var(--body_background);
+    color: var(--body_text);
+    padding-inline: 20%;
+}
+.dashboard-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.dashboard-component{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+@media screen and (max-width: 1400px) {
+    .dashboard-wrapper{
+        display: block;
+    }
+    .dashboard-container{
+        padding-inline: 20%;
+        padding-bottom: 64px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .dashboard-container{
+        padding-inline: 5%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .dashboard-container{
+        padding-inline: 0%;
+    }
+}
